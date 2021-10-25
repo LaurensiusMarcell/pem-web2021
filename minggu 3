@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Tugas Minggu 3</title>
+        <style>
+            table.tabel {
+                margin-right: auto;
+                margin-left: auto;
+                padding: 8px;
+                line-height: 1.42857143;
+                vertical-align: top;
+                border-collapse: collapse;
+            }
+            table.tabel tr {
+                background-color: rgb(252, 250, 250);
+                
+            }
+            td { border-top: 1px solid #ddd;}
+            table.tabel2 {
+                margin-right: auto;
+                margin-left: auto;
+                padding: 8px;
+                line-height: 1.42857143;
+                vertical-align: top;
+                border-collapse: collapse;
+            }
+            table.tabel2 thead {
+                background-color: rgb(62, 250, 153);
+                border-collapse: collapse;
+            }
+            table.tabel2 th {
+                border-width: 2px;
+                border-style: solid;
+                border-color: black;
+            }
+            h4.jadwal {
+                text-align: center;
+            }
+            tr.ganjil {
+                background-color: rgb(205, 133, 63);
+            }
+            tr.ganjil td {
+                border-width: 2px;
+                border-style: solid;
+                border-color: black;
+            }
+            tr.genap {
+                background-color: rgb(205, 133, 63);
+            }
+            tr.genap td {
+                border-width: 2px;
+                border-style: solid;
+                border-color: black;
+            }
+            div.biodata img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 200px;
+            }
+            h1 {
+                font-size: 50px;
+                font-style: normal;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Lagu TikTok Viral 2021 - TOP Spotify Indonesia September 2021</h1>
+
+        <hr width="50%" color="grey">
+        <div>
+            <table class="tabel">
+       
+
+ <div style="border-radius: 0px;">
+                    <div>
+
+    </body>
+</html>
+
+<video width="320" height="240" controls>
+<source src="movie.mp4" type="video/mp4">
+</video>
+
+<audio controls>
+ <source src="audio.mp3" type="audio/mpeg">
+</audio>
+
+
+<iframe width="1520" height="606" src="https://www.youtube.com/embed/yWrHHxksbLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+<object src="gambar.png" width="100%" height="500px" ></object>
