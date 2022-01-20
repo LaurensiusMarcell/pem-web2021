@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-about.css">
+    <link rel="shortcut icon" href="img/items/icon.png" type="image/x-icon">
+    <link rel="icon" href="img/items/icon.png" type="image/x-icon">
+    <title>About Page</title>
+</head>
+<body>
+    <div id="navbar">
+		<a href="index.html" id="logo">E-Money Mahasiswa</a>
+        <div id="login">
+          <a href="login-page.html">Login</a>
+          <a href="signup.html">Sign Up</a>
+        </div>
+        <div id="navbar-right">
+            <a class="active" href="index.html">Home</a>
+            <a class="active" href="about.html">About</a>
+            <a class="active" href="spesifikasi.html">Spesifikasi</a>
+            <a class="active" href="contact.html">Contact</a>
+        </div>
+    </div>
+    
+    <div class="toptext">
+        <h1>Menyediakan Solusi Pembayaran Kuliah Untuk Mahasiswa</h1>
+        <p>Memberikan kemudahan dalam mengatur kebutuhan biaya maupun finansial Mahasiswa dengan menggunakan platform dari Mahasiswa untuk Mahasiswa.</p>
+    </div>
+    <br><br>
+    
+    <div class="container">
+        <div class="imgmisi">
+            <img src="img/items/pay.jpg" alt="student" width="560" height="330" style="border-radius: 5%;">
+        </div>
+        <div class="misi-text">
+            <h1>Kelebihan e-money</h1>
+            <p>Dengan menggunakan kartu e-money, kamu dapat membawa uang sampai kurang lebih satu juta rupiah tanpa membuat dompet terlalu tebal.
+            <br><br>
+            Tak hanya itu, e-money juga tidak membutuhkan PIN (personal identification number) atau tanda tangan.
+			<br>
+			Saat membayar, kamu hanya perlu menempelkannya ke mesin pembaca saja. 
+            </p>
+        </div>
+    </div>
+
+    <div class="container1">
+        <div class="next-text">
+            <h1>Kekurangan e-money</h1>
+            <p> Meskipun ringkas dalam penggunaannya, 
+			<br> kekurangan lain dari e-money adalah kamu tidak bisa mengisinya terlalu banyak. 
+			<br>
+			Pasalnya, e-money tidak membutuhkan PIN atau verifikasi dalam bentuk apa pun.
+			<br>
+			Kalau tiba-tiba kartu hilang, uangmu yang ada di dalam kartu tersebut juga ikut lenyap.
+            </p>
+        </div>
+        <div class="img-next">
+            <img src="img/items/debit3.jpg" alt="student" width="560" height="330" style="border-radius: 5%;">
+        </div>
+    </div>
+    
+    <div class="bot-cont1">
+        <h1>Kami siap <br>membantu Anda</h1>
+        <p>Mulai sekarang dan rasakan mudahnya transaksi non tunai<br>Kamu bisa memulainya sekarang.</p>
+        <a href="login-page.html" class="btn-mulai">Mulai Sekarang</a>
+    </div>
+
+    <div class="footer" id="footer">
+        Copyright &copy; 2022 Laurensius Marcellano Adi Pradana
+    </div>
+
+    <! –– Javascript ––>
+    <script>
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction(){
+          if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+              document.getElementById("navbar").style.padding = "20px 30px";
+              document.getElementById("logo").style.fontSize = "30px";
+          }else{
+              document.getElementById("navbar").style.padding = "30px 30px";
+              document.getElementById("logo").style.fontSize = "35px";
+          }
+      }
+    </script>
+</body>
+</html>
